@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://khuyen123.github.io/TestHTML" />
+    <meta property="og:title" content="Kiến thức thiết kế website" />
+    <meta property="og:description" content="Hãy cùng nhau chia sẻ kiến thức website" />
+    <meta property="og:image" content="URL_IMAGE" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="fb:app_id" content="625720921748105" />
+    <meta charset="utf-8" />
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=625720921748105";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, "script", "facebook-jssdk"));
+    </script>
+    <!-- Phần tiêu đề( hiển thị khi tìm kiếm trang web) -->
+    <title>F8- Shop</title>
+    <link href="css1.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="mainheader">
+        <div class="header-1">
+            <div class="left-header">
+                <img src="Img/logo.jpg" />
+            </div>
+            <div class="mid-header">
+                <div class="dropdown-menu"> <img src="Img/anh-the.jpg" /></div>
+                <div class="search-area">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Tìm kiếm bạn bè, người thân hoặc bất cứ ai..." />
+                        <button onclick="hello()">
+                            <img src="Img/search-icon.png" />
+                            <h4>Tìm kiếm</h4>
+                        </button>
+
+                    </div>
+                    <div class="bottom-header">
+                        <a href="https://www.facebook.com/khuyen7501/" title="Khuyến Phạm">Khuyến Phạm</a>
+                        <a href="https://www.facebook.com/profile.php?id=100009865592162" title="Ha Lade">&nbsp;&nbsp;&nbsp; Lade</a>
+                        <a href="https://www.facebook.com/khuyen.clover" title="Khuyên Clover">&nbsp;&nbsp;Khuyên</a>
+                        <a href="#" title="Unknown">&nbsp;&nbsp;Anphabelt</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-header">
+                <div class="right-header-top">
+                    <div class="right-header-top-left">
+                        <a href="#" onclick="hello()"><img src="Img/user.png" /></a>
+                        <a href="#" onclick="hello()">Đăng nhập/</a>
+                        <a href="#" onclick="hello()">&nbsp;Đăng ký</a>
+
+                    </div>
+                    <div class="right-header-top-right">
+                        <a href="#" onclick="hello()"><img src="Img/shopping-cart.png" />Giỏ hàng</a>
+                    </div>
+                </div>
+                <div class="right-header-bottom">
+                    <h4>Đây là Trang Web tĩnh giới thiệu bản thân Thực hiện bởi Khuyến</h4>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="main-menu-content"></div>
+        </div>
+    </header>
+    
+    <div class="main-content">
+        <div id="fb-root"></div>
+        
+        <div class="fb-comments" data-href="https://khuyen123.github.io/TestHTML/" data-numposts="5"></div>
+    </div>
+
+</body>
+
+</html>
+<script>
+    function hello() { alert("Chưa hoàn thành!"); }
+</script>
